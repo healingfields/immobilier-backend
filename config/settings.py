@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "immobilier.apps.ImmobilierConfig",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
