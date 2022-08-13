@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "immobilier.apps.ImmobilierConfig",
     "rest_framework",
+    "django_elasticsearch_dsl",
+    "search.apps.SearchConfig",
+    "init.apps.InitConfig",
 ]
 
 MIDDLEWARE = [
@@ -131,3 +134,6 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+ELASTICSEARCH_DSL = {"default": {"hosts": "localhost:9200"}}
