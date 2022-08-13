@@ -11,12 +11,4 @@ class ImmobilierDocument(Document):
     class Django:
         model = Immobilier
 
-        fields = [
-            "id",
-            "title",
-            "type",
-            "transaction",
-            "city",
-            "thumbnail_url",
-            "posted_at",
-        ]
+        fields = ["id", "title", "type", "transaction", "city", "thumbnail_url"]
