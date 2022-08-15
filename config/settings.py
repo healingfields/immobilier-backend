@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "immobilier.apps.ImmobilierConfig",
     "rest_framework",
     "django_elasticsearch_dsl",
+    "django_elasticsearch_dsl_drf",
     "search.apps.SearchConfig",
     "init.apps.InitConfig",
 ]
@@ -134,3 +135,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 ELASTICSEARCH_DSL = {"default": {"hosts": "localhost:9200"}}
+
+ELASTICSEARCH_INDEX_NAMES = {
+    "search.immobilier": "immobiliers",
+}

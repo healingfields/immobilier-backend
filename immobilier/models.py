@@ -12,4 +12,4 @@ class Immobilier(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, null=True)
 
     def __str__(self) -> str:
-        return f"{self.type} en {self.transaction} a {self.city}"
+        return f"{self.title} "
