@@ -16,8 +16,19 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework import routers
+
+from search.views import ImmobilierDocumentView
+
+router = routers.SimpleRouter(trailing_slash=False)
+
+router.register(
+    r"immobilier-search", ImmobilierDocumentView, basename="immobilier-search"
+)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("immobilier.urls")),
 ]
+
+urlpatterns += router.urls
