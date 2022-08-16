@@ -59,7 +59,7 @@ class Command(BaseCommand):
 
                     appartement_image = (
                         "https://www.marocannonces.com/"
-                        + str((img_block.find("img")).get("data-original")).strip()
+                        + str((img_block.find("img")).get("data-original")).strip() if (img_block.find("img")).get("data-original") else "https://static.comment-economiser.fr/images/photos_astuces/2022/05/quelle-est-la-difference-entre-salaire-brut-et-net-et-comment-les-calculer.jpg"
                     )
 
                     id += 1

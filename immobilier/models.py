@@ -6,7 +6,7 @@ class Immobilier(models.Model):
     type = models.CharField(max_length=150, blank=True, null=True)
     transaction = models.CharField(max_length=150, blank=True, null=True)
     city = models.CharField(max_length=150, blank=True, null=True)
-    thumbnail_url = models.ImageField()
+    thumbnail_url = models.URLField()
     url = models.URLField()
     price = models.CharField(max_length=150, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True)
