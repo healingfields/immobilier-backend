@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup as soup
 import params
 import os
 import io, json
+import re
 
 from django.core.management.base import BaseCommand
 
@@ -56,6 +57,8 @@ class Command(BaseCommand):
 
                     price_div = holder_block.find("strong", {"class": "price"})
                     appartement_price = price_div.text.strip() if price_div else ""
+                    appartement_price = re.sub(r"[^0-9]+", ' ', appartement_price)
+                    appartement_price = appartement_price.replace(" ", "")
 
                     appartement_image = (
                         "https://www.marocannonces.com/"
