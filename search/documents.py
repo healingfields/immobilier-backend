@@ -8,6 +8,8 @@ from immobilier.models import Immobilier
 @registry.register_document
 class ImmobilierDocument(Document):
 
+    id = fields.IntegerField(attr="id")
+
     title = fields.TextField(
         attr="title",
         fields={"raw": fields.TextField()},
