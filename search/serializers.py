@@ -7,4 +7,4 @@ class ImmobilierDocumentSerializer(DocumentSerializer):
     class Meta:
         document = ImmobilierDocument
 
-        fields = ("id", "title", "city", "type", "transaction", "price")
+        fields = ("id", "title", "city", "type", "transaction", "price", "source")

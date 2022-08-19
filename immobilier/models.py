@@ -8,8 +8,9 @@ class Immobilier(models.Model):
     city = models.CharField(max_length=150, blank=True, null=True)
     thumbnail_url = models.URLField()
     url = models.URLField()
-    price = models.CharField(max_length=150, blank=True, null=True)
+    price = models.FloatField(default=0, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True)
+    source = models.CharField(max_length=150, blank=True, null=True)
 
     def __str__(self) -> str:
         return f"{self.title} "

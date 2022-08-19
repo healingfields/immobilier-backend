@@ -26,11 +26,11 @@ class ImmobilierDocument(Document):
         attr="city",
         fields={"raw": fields.TextField()},
     )
-    price = fields.TextField(
-        attr="price",
+    price = fields.FloatField()
+    thumbnail_url = fields.TextField(
+        attr="thumbnail_url",
         fields={"raw": fields.TextField()},
     )
-    thumbnail_url = fields.FileField(attr="thumbnail_url")
     url = fields.TextField(
         attr="url",
         fields={"raw": fields.TextField()},
@@ -38,6 +38,11 @@ class ImmobilierDocument(Document):
     created_at = fields.DateField(
         attr="created_at",
         fields={"raw": fields.DateField()},
+    )
+
+    source = fields.TextField(
+        attr="source",
+        fields={"raw": fields.TextField()},
     )
 
     class Index:

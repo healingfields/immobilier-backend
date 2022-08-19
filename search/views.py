@@ -24,13 +24,13 @@ class ImmobilierDocumentView(DocumentViewSet):
         DefaultOrderingFilterBackend,
     ]
 
-    search_fields = ("city", "title")
+    search_fields = ("type","transaction","source","title", "city")
 
-    filter_fields = {"city": "city.raw", "title": "title.raw"}
+    filter_fields = {"type": "type.raw", "transaction": "transaction.raw", "source": "source.raw"}
 
     ordering_fields = {
         "id": "id",
-        "city": "city.raw",
+        "price": "price",
     }
 
     # Specify default ordering
@@ -39,3 +39,4 @@ class ImmobilierDocumentView(DocumentViewSet):
     # ?city__terms=agadir__berrechid (filters with the exact terms)
     # http://127.0.0.1:8000/immobilier-search?search=title|casa (find articles containing the ‘New’ value in their titles)
     # http://127.0.0.1:8000/immobilier-search?ordering=-id
+    # http://localhost:8000/immobilier-search?source=marocannonces&source=avito&type=appartement&transaction=vente&limit=1000

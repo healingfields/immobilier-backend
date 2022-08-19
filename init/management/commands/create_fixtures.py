@@ -14,7 +14,7 @@ class Command(BaseCommand):
         if os.path.exists("init/fixtures/db_immobiliers_fixture.json"):
             os.remove("init/fixtures/db_immobiliers_fixture.json")
 
-        urls = set(params.urlsParams)
+        urls = params.urlsParams
         AllData = []
         id = 0
         filename = "init/fixtures/db_immobiliers_fixture.json"
@@ -25,7 +25,7 @@ class Command(BaseCommand):
             # my_url = 'https://www.marocannonces.com/categorie/315/Vente-immobilier/Appartements.html'
 
             # opening url and grabbing the web page
-            uClient = urlopen(my_url)
+            uClient = urlopen(my_url["url"])
             page_html = uClient.read()
             uClient.close()
 
@@ -56,7 +56,7 @@ class Command(BaseCommand):
                     )
 
                     price_div = holder_block.find("strong", {"class": "price"})
-                    appartement_price = price_div.text.strip() if price_div else ""
+                    appartement_price = price_div.text.strip() if price_div else "0"
                     appartement_price = re.sub(r"[^0-9]+", ' ', appartement_price)
                     appartement_price = appartement_price.replace(" ", "")
 
@@ -74,8 +74,11 @@ class Command(BaseCommand):
                             "url": appartement_link,
                             "title": appartement_name,
                             "city": appartement_location,
-                            "price": appartement_price,
+                            "price": float(appartement_price),
                             "thumbnail_url": appartement_image,
+                            "type": my_url["type"],
+                            "transaction": my_url["transaction"],
+                            "source": my_url["source"],
                         },
                     }
                     AllData.append(dictionary)
