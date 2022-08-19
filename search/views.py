@@ -6,8 +6,8 @@ from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from django_elasticsearch_dsl_drf.filter_backends import (
     SearchFilterBackend,
     FilteringFilterBackend,
-    SuggesterFilterBackend,
-    CompoundSearchFilterBackend,
+    OrderingFilterBackend,
+    DefaultOrderingFilterBackend,
 )
 
 
@@ -20,10 +20,22 @@ class ImmobilierDocumentView(DocumentViewSet):
     filter_backends = [
         SearchFilterBackend,
         FilteringFilterBackend,
+        OrderingFilterBackend,
+        DefaultOrderingFilterBackend,
     ]
 
     search_fields = ("city", "title")
 
     filter_fields = {"city": "city.raw", "title": "title.raw"}
 
+    ordering_fields = {
+        "id": "id",
+        "city": "city.raw",
+    }
+
+    # Specify default ordering
+    ordering = "id"
+
     # ?city__terms=agadir__berrechid (filters with the exact terms)
+    # http://127.0.0.1:8000/immobilier-search?search=title|casa (find articles containing the ‘New’ value in their titles)
+    # http://127.0.0.1:8000/immobilier-search?ordering=-id
