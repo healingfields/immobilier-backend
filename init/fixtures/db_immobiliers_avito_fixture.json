@@ -1,0 +1,492 @@
+[
+    {
+        "model": "immobilier.immobilier",
+        "id": "1",
+        "fields": {
+            "url": "https://www.avito.ma/fr/had_soualem/appartements/شقة_راءعة_120متر_على_شارع_رئيسي_47604176.htm",
+            "title": "شقة راءعة 120متر على شارع رئيسي",
+            "city": "Had Soualem",
+            "price": 580000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10056607204.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "2",
+        "fields": {
+            "url": "https://www.avito.ma/fr/gueliz/appartements/Particulier_mets_en_vente_un_appartement_a_gueliz_50418833.htm",
+            "title": "Particulier mets en vente un appartement a gueliz",
+            "city": "Marrakech",
+            "price": 670000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069800628.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "3",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartement_de_luxe_120m²_trois_façades_à_mehdia_50315346.htm",
+            "title": "Appartement de luxe 120m² trois façades à mehdia",
+            "city": "Kénitra",
+            "price": 740000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10068533220.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "4",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartements_3_chambres_87m²_à_Mehdia_50292311.htm",
+            "title": "Appartements 3 chambres 87m² à Mehdia",
+            "city": "Kénitra",
+            "price": 450000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10068241000.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "5",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Joli_appartement_2_façades_bien_décoré_à_Mehdia_50671222.htm",
+            "title": "Joli appartement 2 façades bien décoré à Mehdia",
+            "city": "Kénitra",
+            "price": 460000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10072589785.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "6",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Bel_appartement_2ème_étage_à_mehdia_50267503.htm",
+            "title": "Bel appartement 2ème étage à mehdia",
+            "city": "Kénitra",
+            "price": 345000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10067896879.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "7",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Magnifique_appartement_84m²_2_façades_à_mehdia_50426241.htm",
+            "title": "Magnifique appartement 84m² 2 façades à mehdia",
+            "city": "Kénitra",
+            "price": 460000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069886354.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "8",
+        "fields": {
+            "url": "https://www.avito.ma/fr/quartier_de_locean/appartements/Appartement_tres_haut_standing_ocean__50419119.htm",
+            "title": "Appartement tres haut standing ocean",
+            "city": "Rabat",
+            "price": 800000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069788520.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "9",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartements_bien_décoré_à_lotissement_mehdia__50608960.htm",
+            "title": "Appartements bien décoré à lotissement mehdia",
+            "city": "Kénitra",
+            "price": 370000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10072521356.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "10",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Jolis_appartements_bien_ensoleillé_à_Mehdia_50426497.htm",
+            "title": "Jolis appartements bien ensoleillé à Mehdia",
+            "city": "Kénitra",
+            "price": 350000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069889276.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "11",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Bel_appartements_près_de_MEHDIA_MALL_deux_façades__50137194.htm",
+            "title": "Bel appartements près de MEHDIA MALL deux façades",
+            "city": "Kénitra",
+            "price": 450000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10066298964.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "12",
+        "fields": {
+            "url": "https://www.avito.ma/fr/marjane_2/appartements/Très_bel_appartement_82m2_50614005.htm",
+            "title": "Très bel appartement 82m2",
+            "city": "Meknès",
+            "price": 550000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10072096187.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "13",
+        "fields": {
+            "url": "https://www.avito.ma/fr/bir_rami/appartements/Jolis_appartements_3_chambres_à_birami_50431064.htm",
+            "title": "Jolis appartements 3 chambres à birami",
+            "city": "Kénitra",
+            "price": 490000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069951714.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "14",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Bel_appartement_avec_ascenseur_près_de_MEHDIA_MALL_50169373.htm",
+            "title": "Bel appartement avec ascenseur près de MEHDIA MALL",
+            "city": "Kénitra",
+            "price": 350000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10066723710.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "15",
+        "fields": {
+            "url": "https://www.avito.ma/fr/bir_rami/appartements/Bel_appartement_110m²_3_chambres_à_birami__50512516.htm",
+            "title": "Bel appartement 110m² 3 chambres à birami",
+            "city": "Kénitra",
+            "price": 610000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10070861660.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "16",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Joli_appartement_deux_façades_à_mehdia_50137266.htm",
+            "title": "Joli appartement deux façades à mehdia",
+            "city": "Kénitra",
+            "price": 445000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10066299096.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "17",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartement_de_rêve_144m²_sans_vis_à_vis_à_Mehdia_50768401.htm",
+            "title": "Appartement de rêve 144m² sans vis à vis à Mehdia",
+            "city": "Kénitra",
+            "price": 840000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10073641653.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "18",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Bel_appartement_85m²_vue_sur_jardin_à_Mehdia__50777810.htm",
+            "title": "Bel appartement 85m² vue sur jardin à Mehdia",
+            "city": "Kénitra",
+            "price": 470000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10073762150.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "19",
+        "fields": {
+            "url": "https://www.avito.ma/fr/centre/appartements/Appartement_avec_terrasse_au_centre_ville_Kénitra__50133860.htm",
+            "title": "Appartement avec terrasse au centre ville Kénitra",
+            "city": "Kénitra",
+            "price": 680000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10066255468.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "20",
+        "fields": {
+            "url": "https://www.avito.ma/fr/centre/appartements/Appartement_de_183m²_avec_terrasse_au_centre_ville_50179787.htm",
+            "title": "Appartement de 183m² avec terrasse au centre ville",
+            "city": "Kénitra",
+            "price": 990000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10066817449.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "21",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartements_2_façades_bien_ensoleillé_à_Mehdia_50431692.htm",
+            "title": "Appartements 2 façades bien ensoleillé à Mehdia",
+            "city": "Kénitra",
+            "price": 420000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10069943045.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "22",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartement_de_rêve_144m²_à_lotissement_mehdia_50292245.htm",
+            "title": "Appartement de rêve 144m² à lotissement mehdia",
+            "city": "Kénitra",
+            "price": 820000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10068239295.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "23",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartement__50439678.htm",
+            "title": "Appartement",
+            "city": "El Jadida",
+            "price": 360000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10070070545.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "24",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appartement_en_Vente_à_Bouznika_49664981.htm",
+            "title": "Appartement en Vente à Bouznika",
+            "city": "Bouznika",
+            "price": 530000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10061437039.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "25",
+        "fields": {
+            "url": "https://www.avito.ma/fr/hay_charaf/appartements/Appartement_131m²_en_Vente_à_Marrakech_50792548.htm",
+            "title": "Appartement 131m² en Vente à Marrakech",
+            "city": "Marrakech",
+            "price": 0.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10073928666.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "26",
+        "fields": {
+            "url": "https://www.avito.ma/fr/autre_secteur/appartements/Appart_de_luxe_au_centre_de_skhirat_BORJ_50463532.htm",
+            "title": "Appart de luxe au centre de skhirat BORJ",
+            "city": "Skhirat",
+            "price": 520000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10071999759.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "27",
+        "fields": {
+            "url": "https://www.avito.ma/fr/palmier/appartements/Appart_5ème_Dernier_étage_Sans_vis_à_vis_2_Façades_50605802.htm",
+            "title": "Appart 5ème Dernier étage Sans vis à vis 2 Façades",
+            "city": "Casablanca",
+            "price": 2900000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10072198333.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "28",
+        "fields": {
+            "url": "https://www.avito.ma/fr/el_houda/appartements/Bel_Appartement_à_vendre_Neuf_109m²_50621721.htm",
+            "title": "Bel Appartement à vendre Neuf 109m²",
+            "city": "Agadir",
+            "price": 0.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10072379082.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "29",
+        "fields": {
+            "url": "https://www.avito.ma/fr/sonaba/appartements/Neuf_appartement_à_vendre_agadir_bay_50537136.htm",
+            "title": "Neuf appartement à vendre agadir bay",
+            "city": "Agadir",
+            "price": 0.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10070710719.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "30",
+        "fields": {
+            "url": "https://www.avito.ma/fr/ain_sebaa/appartements/apparemment_al_amane_ain_sebaa__50792514.htm",
+            "title": "apparemment al amane ain sebaa",
+            "city": "Casablanca",
+            "price": 340000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10073927909.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "31",
+        "fields": {
+            "url": "https://www.avito.ma/fr/taza/appartements/منزل_كامل_للبيع_Maison_a_vendre__50792505.htm",
+            "title": "منزل كامل للبيع Maison a vendre",
+            "city": "Taza",
+            "price": 0.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10073928754.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "32",
+        "fields": {
+            "url": "https://www.avito.ma/fr/dar_bouazza/appartements/Appartement_F3_en_Vente_à_Dar_Bouazza_49335366.htm",
+            "title": "Appartement F3 en Vente à Dar Bouazza",
+            "city": "Dar Bouazza",
+            "price": 7200.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10057532342.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "33",
+        "fields": {
+            "url": "https://www.avito.ma/fr/dar_bouazza/appartements/Appartement_72_m2_à_Dar_Bouazza_49279465.htm",
+            "title": "Appartement 72 m2 à Dar Bouazza",
+            "city": "Dar Bouazza",
+            "price": 7200.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10056870639.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "34",
+        "fields": {
+            "url": "https://www.avito.ma/fr/skikina/appartements/Appartements_à_Temara_48494248.htm",
+            "title": "Appartements à Temara",
+            "city": "Temara",
+            "price": 610000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10050603076.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    },
+    {
+        "model": "immobilier.immobilier",
+        "id": "35",
+        "fields": {
+            "url": "https://www.avito.ma/fr/bouskoura/appartements/Appartement_en_Vente_à_Bouskoura_49025692.htm",
+            "title": "Appartement en Vente à Bouskoura",
+            "city": "Bouskoura",
+            "price": 490000.0,
+            "thumbnail_url": "https://content.avito.ma/mob_320/10/10054044630.jpg",
+            "type": "villa",
+            "transaction": "location",
+            "source": "avito"
+        }
+    }
+]

@@ -15,6 +15,6 @@ urlsParams = [
     "source":"avito",
     "type": "villa", 
     "transaction":"location", 
-    "url":'https://www.marocannonces.com/categorie/315/Vente-immobilier/Appartements/3.html'
+    "url":'https://www.avito.ma/fr/maroc/appartements-%C3%A0_vendre'
   },
 ]

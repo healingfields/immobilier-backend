@@ -11,16 +11,19 @@ from django.core.management.base import BaseCommand
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
-        if os.path.exists("init/fixtures/db_immobiliers_fixture.json"):
-            os.remove("init/fixtures/db_immobiliers_fixture.json")
+        if os.path.exists("init/fixtures/db_immobiliers_ma_fixture.json"):
+            os.remove("init/fixtures/db_immobiliers_ma_fixture.json")
 
         urls = params.urlsParams
         AllData = []
         id = 0
-        filename = "init/fixtures/db_immobiliers_fixture.json"
+        filename = "init/fixtures/db_immobiliers_ma_fixture.json"
         f = open(filename, "a+", encoding="utf-8")
 
         for my_url in urls:
+
+            if my_url["source"] != "marocannonces":
+                continue
 
             # my_url = 'https://www.marocannonces.com/categorie/315/Vente-immobilier/Appartements.html'
 
