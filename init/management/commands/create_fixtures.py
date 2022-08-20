@@ -62,7 +62,7 @@ class Command(BaseCommand):
 
                     appartement_image = (
                         "https://www.marocannonces.com/"
-                        + str((img_block.find("img")).get("data-original")).strip() if (img_block.find("img")).get("data-original") else "https://static.comment-economiser.fr/images/photos_astuces/2022/05/quelle-est-la-difference-entre-salaire-brut-et-net-et-comment-les-calculer.jpg"
+                        + str((img_block.find("img")).get("data-original")).strip() if (img_block.find("img")).get("data-original") else "http://www.energyfit.com.mk/wp-content/plugins/ap_background/images/default/default_large.png"
                     )
 
                     id += 1
