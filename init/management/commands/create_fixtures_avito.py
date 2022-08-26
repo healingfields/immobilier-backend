@@ -35,7 +35,7 @@ class Command(BaseCommand):
             # uClient = urlopen(my_url["url"])
             session = HTMLSession()
             rs = session.get(my_url["url"])
-            rs.html.render(sleep=3)
+            rs.html.render(timeout=20)
             page_soup = soup(rs.html.raw_html, "html.parser")
             # page_html = uClient.read()
             # uClient.close()
